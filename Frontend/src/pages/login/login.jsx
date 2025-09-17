@@ -15,7 +15,7 @@ const Login = () => {
     <div className='flex flex-col items-center justify-center mx-auto min-w-96'>
     <div className='w-full p-6 rounded-lg shadow-md bg-gray-400 bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-0'>
         <h1 className='text-4xl font-semibold text-center'>Login
-            <span className='text-blue-500'> BuzzUp</span>
+            <span className='text-blue-500 italic'> BuzzUp</span>
         </h1>
 
       <form onSubmit={handleSubmit}>

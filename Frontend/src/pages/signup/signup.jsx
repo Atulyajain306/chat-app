@@ -27,7 +27,7 @@ const Signup = () => {
     <div className='flex flex-col items-center justify-center mx-auto min-w-96'>
     <div className='w-full p-6 rounded-lg shadow-xl bg-gray-400 bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-0'>
         <div className='text-3xl text-center items-center font-semibold '>Signup 
-             <span className='text-3xl text-center items-center font-semibold text-blue-500'>BuzzUp</span>
+             <span className='text-3xl text-center items-center font-semibold text-blue-500 italic'> BuzzUp</span>
         </div>
          <form  onSubmit={HandleSubmit}>
               <div className=''>
