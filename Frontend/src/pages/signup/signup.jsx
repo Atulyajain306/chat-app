@@ -27,7 +27,7 @@ const Signup = () => {
     <div className='flex flex-col items-center justify-center mx-auto min-w-96'>
     <div className='w-full p-6 rounded-lg shadow-xl bg-gray-400 bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-0'>
         <div className='text-3xl text-center items-center font-semibold '>Signup 
-             <span className='text-3xl text-center items-center font-semibold text-blue-500'> ChatApp</span>
+             <span className='text-3xl text-center items-center font-semibold text-blue-500'>BuzzUp</span>
         </div>
          <form  onSubmit={HandleSubmit}>
               <div className=''>
@@ -40,7 +40,7 @@ const Signup = () => {
               <input type="text" placeholder='Enter Username' className='w-full p-2 rounded-lg bg-gray-300 input input-bordered h-10 '
                value={inputs.username}
                 onChange={(e)=>setinputs({...inputs,username:e.target.value})}  />
-              <div className=''>
+          b    <div className=''>
                 Password
               </div>
               <input type="password" placeholder='Enter Password' className='w-full p-2 rounded-lg bg-gray-300 input input-bordered h-10 ' value={inputs.password}

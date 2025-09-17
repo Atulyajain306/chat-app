@@ -9,6 +9,7 @@ const generatetokensetcookie=(userId,res)=>{
         httpOnly:true,
         sameSite:"strict"
   })
+  
 }
 
 export default generatetokensetcookie
